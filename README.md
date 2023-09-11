@@ -1,4 +1,4 @@
-# 2023-09-11-git_history
+## DSCI 521: Lecture 3
 - 'General stuff'
     - 'add <FILENAMES>' adding the <FILENAMES> to the staging area
     - 'commit -m "MESSAGE": commit with a message everything in the staging area
@@ -14,3 +14,5 @@
     - 'git --stated': shows the diff of the files in the staging area
 
 - 'restore --staged <FILE>': unstages <FILE> from the staging area
+
+- `revert <SHA1>`: undos the changes in the commit specified in `<SHA1>`
